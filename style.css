@@ -14,3 +14,16 @@ color: black;
 	background-color: #00BFFF;
 	margin: auto;
     width: 1000px;
+}
+
+#topBar
+{
+	
+	color: #FF00FF;
+	padding: 10px;
+	font-size: 30 px;
+	text-align: center;
+    border: 3px solid blue;
+	letter-spacing: 3px;
+	margin-bottom: 50px;
+}
