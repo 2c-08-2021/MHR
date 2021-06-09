@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR</title>
+    <script>
+        
+    function myFunction1()
+    {
+    var a = document.getElementById("a").value;
+    a = parseFloat(a);
+    var b = document.getElementById("b").value;
+    b = parseFloat(b);
+    var c = 0;
+    c = 210 - 0.5 *a - 0.022 *b;
+    document.getElementById("wynik").innerHTML = c ;
+     }
+     function myFunction2()
+    {
+    var a = document.getElementById("a").value;
+    a = parseFloat(a);
+    var b = document.getElementById("b").value;
+    b = parseFloat(b);
+    var c = 0;
+    c = 210 - 0.5 *a - 0.022 *b +4;
+    document.getElementById("wynik").innerHTML = c ;
+     }
+    </script>
+</head>
+<body>
+<div id="container">
+ 
+    <h3>MHR - tętno maxymalne czyli najwyższa wielkość tętna jaką jesteśmy w stanie osiągnąc obliczana orientacyjnie z wzoru</h1>   
+ 
+        Wiek:
+ <input type="text" id = "a" value = 0 >
+ Waga:
+ <input type="text" id = "b" value = 0 > 
+ 
+ <button onclick="myFunction1()">Kobieta</button>
+ <button onclick="myFunction2()">Mężczyzna</button>
+ <div id="wynik"></div>
+ <h5>Strefa I (50-60% MHR)</h5>  strefa regeneracji: trening o małej intensywności mający na celu ogólnie poprawić kondycję fizyczną. Polecany osobom początkującym, osobom o słabej kondycji fizycznej, otyłym oraz osobom chcącym zregenerować siły po dużym wysiłku. Na tym poziomie organizm odnosi już pewne korzyści - lekko wzmacniają się mięśnie i układ sercowo-naczyniowy, następuje umiarkowana redukcja tkanki tłuszczowej. Trening w tym zakresie tętna można uprawiać bez ograniczeń czasowych. Tempo porównywane z marszem. W tej strefie wykonujemy rozgrzewkę Warm-UP oraz Recovery.
+
+<h5>Strefa II (60-70% MHR)</h5>  strefa spalania tłuszczu: trening średniej intensywności, znacznie poprawiający pracę układu krążeniowo-oddechowego, podczas zachodzi intensywne spalanie tkanki tłuszczowej. Polecany osobom chcącym schudnąć. Tempo porównywalne z truchtem.
+Wysiłki na tym poziomie odpowiednie dla osób które chcą::
+
+poprawić wygląd lub formę,
+mniejszyć wymiary,
+ukazać muskulaturę ukrytą pod zapasem tłuszczu,
+zrzucić nadmiar wagi podczas przygotowa do zawodów.
+<h5>Strefa III (70-80% MHR)</h5> strefa poprawy wydolności sercowo-naczyniowej: ćwicząc w tym zakresie tętna maksymalnego, znacznie poprawiamy wydolność układu oddechowego i układu krążenia. Zwiększa się intensywność wymiany gazowej w płucach i przepływ natlenionej krwi do mięśni.
+Trening polecany osobom o dobrej kondycji, chcącym poprawić swoje wyniki, np. biegaczom pragnącym zwiększyć szybkość.
+Stosunek spalanego tłuszczu do glikogenu jest niższy niż w strefie II, ale ogólne zużycie kalorii jest większe.
+
+<h5>Strefa IV 80-90% MHR (gdzie 85-90% =prg beztlenowy)</h5>  strefa przejścia do przemian beztlenowych (anaerobowych): w tej strefie kończy się trening aerobowy a zaczyna anaerobowy (bez udziału tlenu). Duży wysiłek powoduje, że organizm przestaje usuwać kwas mlekowy z mięśni, oddech jest ciężki, szybko dopada nas zmęczenie. Energia czerpana jest w przeważającej części ze spalania węglowodanów i tylko w niewielkim stopniu z tłuszczów. Trening w tej strefie ma na celu zwiększenie tolerancji kwasu mlekowego przez mięśnie i przeznaczony jest dla zawodowców, chcących poprawić swoje wyniki.
+
+<h5>Strefa V (powyżej 90% MHR)</h5> trening dostępny jest jedynie przez krótki czas i dostępny jest tylko dla zawodowców. Kwas mlekowy w mięśniach powstaje bardzo szybko, dlatego treningi w tym przedziale tętna są bardzo męczące a przez to krótkie. Mają na celu poprawę wytrzymałości.
+
+W przypadku regularnego treningu rekreacyjnego zaleca się przedział o wartości 65-85% tętna maksymalnego. Trzymanie się dolnej granicy tego zakresu powoduje efektywne spalanie tkanki tłuszczowej, wyższej natomiast - zwiększanie wytrzymałości.
+Prawie każde sprzęty do ćwiczeń są wyposażone w czujniki do pomiaru tętna w uchwytach. Jednak najlepszym i najdokładniejszym sposobem pomiaru podczas treningu jest korzystanie z opaski telemetrycznej.
+</div>
+</body>
+</html>
