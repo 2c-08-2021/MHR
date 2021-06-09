@@ -1,0 +1,16 @@
+body
+{
+background-color: 	#FF00FF;
+font-family: Verdena;
+font-size: 24px;
+color: black;
+}
+#container
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:50px;
+	background-color: #00BFFF;
+	margin: auto;
+    width: 1000px;
